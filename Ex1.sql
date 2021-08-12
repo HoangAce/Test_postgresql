@@ -1,4 +1,4 @@
-Create countries (
+Create table countries (
 	country_id serial,
 	country_name varchar(80),
 	region_id int
