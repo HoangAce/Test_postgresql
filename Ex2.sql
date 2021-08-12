@@ -1,3 +1,4 @@
-Create table countries1 (
-) INHERITS (countries);
--- referen 22_3.6
+create table countries2 as 
+select country_id, country_name, region_id
+from countries;
+-- referen 1661_5.
